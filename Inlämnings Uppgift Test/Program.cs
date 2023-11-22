@@ -31,6 +31,7 @@ namespace Test
                 }
             }
             Console.WriteLine("Den äldsta personen är " + äldst + " år gammal och heter " + äldstnamn);
+            Console.ReadKey();
         }
     }
 }
