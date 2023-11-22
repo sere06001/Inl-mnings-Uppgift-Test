@@ -23,7 +23,6 @@ namespace Test
             string äldstnamn = namn[0];
             for (int i = 0; i < ålder.Length; i++)
             {
-                int j = i + 1;
                 if (äldst < ålder[i])
                 {
                     äldst = ålder[i];
